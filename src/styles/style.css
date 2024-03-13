@@ -1,0 +1,292 @@
+/*estilos en pc*/
+/*modificar todo el documento*/
+body {
+  background-color: black;
+  
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+/*modificar la barra de navegacion*/
+#nav {
+  font-size: 100%;
+  margin: 0%;
+  margin-bottom: 0.5%;
+  padding: 1%;
+  display: flex;
+  padding-left: 30%;
+}
+
+#tempV {
+  font-size: 250%;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+/*modificar el section form*/
+#section-form {
+  background-color: #2d3436;
+  border: 1px solid #8e44ad;
+  border-radius: 5px;
+  height: 100%;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0.5%;
+}
+#intC {
+  text-align: center;
+  font-size: 300%;
+  font-weight: 900;
+  margin: 2%;
+}
+
+#input {
+  color: black;
+  border: 1px solid #8e44ad;
+  font-weight: 900;
+  font-size: 120%;
+  text-align: left;
+  padding: 1%;
+  height: 2%;
+  width: 44%;
+  margin-left: 22%;
+}
+#butbus {
+  color: grey;
+   font-weight: 900;
+  border: 1px solid #8e44ad;
+  font-size: 130%;
+  text-align: center;
+  width: 10%;
+  height: 47px;
+}
+#formbuton{
+  margin-left: 7%;
+  width: 85%;
+  height: 100%;
+  padding: 0.5%;
+  background-color: #9b59b6;
+}
+/*modificar el section rensponse*/
+#secres {
+  width: 90%;
+  margin-left: 5%;
+  border-bottom:  1px solid #8e44ad;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+#carinfo{
+  font-weight: bolder;
+  text-align: center;
+}
+
+#meserror {
+  font-weight: bolder;
+  text-align: center;
+}
+#innais {
+  display: flex;
+  
+}
+#inname {
+  margin-left: 13%;
+  margin-top: 1%;
+}
+#inicon {
+  margin-left: 10%;
+}
+#inpais {
+  margin-left: 13%;
+  margin-top: 1%;
+}
+#info {
+  display: flex;
+  
+}
+#inlocal {
+  border: 1px solid #8e44ad;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  width: 185px;
+  height: 180px;
+  margin-left: 57px;
+}
+#intemp {
+  border: 1px solid #8e44ad;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 185px;
+  height: 180px;
+  margin-left: 57px;
+}
+#inhumi {
+  border: 1px solid #8e44ad;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 185px;
+  height: 180px;
+  margin-left: 57px;
+}
+/*modificar el pie de pagina*/
+.fooh2{
+  font-size: medium;
+  margin-top: 3.5%;
+  margin-left: 1%;
+}
+.fooh3{
+  font-size: medium;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+/*estilos en telefono*/
+@media(max-width: 480px){
+  /*modificar la barra de navegacion*/
+#nav {
+  font-size: 80%;
+  text-align: center;
+  margin: 0%;
+  margin-bottom: 0.5%;
+  padding: 1%;
+  display: flex;
+
+}
+
+#tempV {
+  font-size: 250%;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+/*modificar el section form*/
+#section-form {
+  background-color: #2d3436;
+  border: 1px solid #8e44ad;
+  border-radius: 5px;
+  height: 50%;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0.5%;
+}
+#intC {
+  text-align: center;
+  font-size: 200%;
+  font-weight: 900;
+  margin: 2%;
+}
+
+#input {
+  color: black;
+  border: 1px solid #8e44ad;
+  font-weight: 900;
+  font-size: 65%;
+  text-align: left;
+  padding: 1%;
+  height: 2%;
+  width: 45%;
+  margin-left: 10%;
+}
+#butbus {
+   color: grey;
+   font-weight: 900;
+  border: 1px solid #8e44ad;
+  font-size: 100%;
+  text-align: center;
+  width: 25%;
+  height: 25px;
+  
+}
+#formbuton{
+  margin-left: 7%;
+  width: 85%;
+  height: 100%;
+  padding: 0.5%;
+  background-color: #9b59b6;
+}
+/*modificar el section rensponse*/
+#secres {
+  width: 90%;
+  margin-left: 5%;
+  border-bottom:  1px solid #8e44ad;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+#carinfo{
+  font-size: 110%;
+  font-weight:bolder;
+  text-align: center;
+}
+
+#meserror {
+  font-size: 80%;
+  font-weight: bolder;
+  text-align: center;
+}
+#innais {
+  display: flex;
+  
+}
+#inname {
+  font-size: 60%;
+  margin-left: 6%;
+  margin-top: 1%;
+}
+#inicon {
+  margin-left: 0%;
+}
+#inpais {
+  font-size: 60%;
+  margin-left: 6%;
+  margin-top: 1%;
+}
+#info {
+  display: flex;
+  
+}
+#inlocal {
+  font-size: 50%;
+  border: 1px solid #8e44ad;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px;
+  width: 140px;
+  height: 100px;
+  margin-left: 5px;
+}
+#intemp {
+  font-size: 50%;
+  border: 1px solid #8e44ad;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3px;
+  width: 140px;
+  height: 100px;
+  margin-left: 20px;
+}
+#inhumi {
+  font-size: 50%;
+  border: 1px solid #8e44ad;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3px;
+  width: 140px;
+  height: 100px;
+  margin-left: 20px;
+}
+/*modificar el pie de pagina*/
+.fooh2{
+  font-size: 110%;
+  margin-top: 3.5%;
+  margin-left: 1%;
+}
+.fooh3{
+  font-size: 100%;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+}
